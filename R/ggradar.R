@@ -318,7 +318,7 @@ ggradar <- function(plot.data,
     size = 20,
     family = font.radar
   )) +
-    theme(legend.text = element_text(size = legend.text.size), legend.position = "left") +
+    theme(legend.text = element_text(size = legend.text.size)) +
     theme(legend.key.height = unit(2, "line")) +
     scale_colour_manual(values = colour_values) +
     theme(text = element_text(family = font.radar)) +
